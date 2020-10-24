@@ -1,0 +1,21 @@
+.even{
+    color: green; 
+}
+.everyfourth{
+    text-decoration: underline;
+}
+.afterimg{
+    font-style: italic;
+}
+p {
+    background-color: white; 
+}
+p:hover {
+    background-color: yellow;
+}
+p::before {
+    content: url('https://api.iconify.design/et-magnifying-glass.svg?height=10');
+}
+input {
+    margin: 2px
+}
