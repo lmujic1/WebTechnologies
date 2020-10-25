@@ -19,3 +19,13 @@ p::before {
 input {
     margin: 2px
 }
+input.text{
+    background-color: grey;
+}
+input.email{
+    background-color: black;
+    color: white;
+}
+input.number{
+    color: blue;
+}
