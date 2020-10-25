@@ -22,7 +22,7 @@ input {
 input.text{
     background-color: grey;
 }
-input.email{
+input.password{
     background-color: black;
     color: white;
 }
