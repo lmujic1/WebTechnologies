@@ -1,3 +1,10 @@
 h1{
     font-style: bold;
 }
+input {
+    padding: 3px;
+}
+table,th,tr{
+    text-align: start;
+    font-weight: normal;
+}

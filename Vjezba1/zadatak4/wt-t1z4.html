@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-9">
-        <title>Tutorijal 1, Zadatak 4</title>
-        <link rel="stylesheet" href="z4.scc">
-    </head>
-    <h1>Unos privatnih podataka</h1>
-    <input class="slider" type="range" min="1" max="5" >
+
+<head>
+    <meta charset="utf-9">
+    <title>Tutorijal 1, Zadatak 4</title>
+    <link rel="stylesheet" href="z4.css">
+</head>
+<h1>Unos privatnih podataka</h1>
+<table>
+    <tr>
+        <th>
+            <form name="korak" oninput="range1value.value=range1.valueAsNumber">
+                <input class="slider" name="range1" type="range" min="1" max="5" value="2">
+                Korak <output name="range1value" for=range1>2</output> od 5
+            </form>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Datum rođenja:        
+            <input type="date">
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Email adresa:        
+            <input type="email">
+        </th>
+    </tr>
+</table>
+<br>
+<button>&lt&lt Nazad</button> 
+<button>Dalje &gt&gt</button>
 </html>
