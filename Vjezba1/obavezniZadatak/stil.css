@@ -1,31 +1,31 @@
 .even{
-    color: green; 
+    color:green; 
 }
 .everyfourth{
-    text-decoration: underline;
+    text-decoration:underline;
 }
 .afterimg{
-    font-style: italic;
+    font-style:italic;
 }
 p {
-    background-color: white; 
+    background-color:white; 
 }
 p:hover {
-    background-color: yellow;
+    background-color:yellow;
 }
 p::before {
-    content: url('https://api.iconify.design/et-magnifying-glass.svg?height=10');
+    content:url('https://api.iconify.design/et-magnifying-glass.svg?height=10');
 }
 input {
-    margin: 2px
+    margin: 2px;
 }
 input.text{
-    background-color: grey;
+    background-color:grey;
 }
 input.password{
-    background-color: black;
-    color: white;
+    background-color:black;
+    color:white;
 }
 input.number{
-    color: blue;
+    color:blue;
 }
