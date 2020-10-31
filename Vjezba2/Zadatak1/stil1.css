@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 1300px;
+}
+#link_nazad {
+    
+}
+
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-style: italic;
+    line-height: 0.001px;
+}
+h2{
+    overflow-x: visible; 
+    line-height: 0.001px;
+    text-align: right;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
