@@ -24,6 +24,6 @@ th {
     background-color: #CCCCCC;
 }
 
-tr:nth-child(odd) td {
+tr:nth-child(odd) {
     background: #FFF2CC;
 }
