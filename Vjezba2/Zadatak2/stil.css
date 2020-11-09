@@ -27,6 +27,7 @@ h1 {
 }
 
 #zaglavlje h1 {
+    padding-top: 3px;
     margin-top: 0;
     padding-left: 10px;
 }
