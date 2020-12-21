@@ -1,0 +1,16 @@
+    label {
+        font-weight: bold;
+    }
+    
+    .new br {
+        content: "";
+        margin: 2em;
+        display: block;
+        font-size: 24%;
+    }
+    
+    button {
+        content: "";
+        margin-top: 1em;
+        display: block;
+    }
