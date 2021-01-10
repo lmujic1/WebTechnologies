@@ -1,0 +1,16 @@
+html
+    head
+        link(rel='stylesheet' href='/static/tabela.css')
+    body
+        table(class='tabela')
+            tr
+                td Ime
+                td Prezime
+                td Adresa
+                td Broj telefona
+            for red in results
+                tr
+                    th=red.ime
+                    th=red.prezime
+                    th=red.adresa
+                    th=red.broj_telefona

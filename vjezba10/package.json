@@ -1,0 +1,17 @@
+{
+  "name": "v10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "primjerRelacije.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^4.44.4"
+  }
+}

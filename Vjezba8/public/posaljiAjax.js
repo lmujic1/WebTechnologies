@@ -24,5 +24,5 @@ function pokusajAjax(pokusaj, fnCallback) {
     }
     ajax.open("POST", "http://localhost:3000", true);
     ajax.setRequestHeader("Content-Type", "application/json");
-    ajax.send(JSON.stringify({ pokusaj: pokusaj }));
+    ajax.send(JSON.parse({ pokusaj: pokusaj }));
 }

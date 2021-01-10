@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Fetch using MySQL and Node.js</title>
+    <style>
+        .tabela {
+            position: relative;
+            left: 150px;
+            top: 100px;
+        }
+        
+        table,
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tabela">
+        <h2>Podaci iz baze</h2>
+        <table border="1">
+            <tr>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Adresa</th>
+                <th>Broj telefona</th>
+            </tr>
+
+            <% if(podaciIzTabele.length!=0){
+                var i=1;
+                podaciIzTabele.forEach(function(data){ %>
+                <tr>
+                    <td>
+                        <%= data.ime; %>
+                    </td>
+                    <td>
+                        <%= data.prezime %>
+                    </td>
+                    <td>
+                        <%= data.adresa %>
+                    </td>
+                    <td>
+                        <%= data.broj_telefona %>
+                    </td>
+
+                    <%  i++; }) %>
+                        <% } else{ %>
+                            <tr>
+                                <td colspan="4">No Data Found</td>
+                            </tr>
+                            <% } %>
+        </table>
+    </div>
+</body>
+
+</html>
